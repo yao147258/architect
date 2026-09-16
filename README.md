@@ -8,7 +8,7 @@ evolution roadmap.
 ## Install
 
 ```
-/plugin marketplace add yao14728/architect
+/plugin marketplace add yao147258/architect
 ```
 
 Then enable the `architect` plugin. The skill is invoked automatically when
@@ -68,7 +68,7 @@ MIT
 ## 安装
 
 ```
-/plugin marketplace add yao14728/architect
+/plugin marketplace add yao147258/architect
 ```
 
 安装后启用 `architect` 插件。当你的请求匹配架构设计、模块划分、技术选型、
