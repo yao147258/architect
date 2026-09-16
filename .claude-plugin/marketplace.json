@@ -1,0 +1,20 @@
+{
+  "name": "architect-marketplace",
+  "owner": {
+    "name": "yaofengqiao",
+    "email": "1947846708@qq.com"
+  },
+  "description": "Marketplace for the architect skill plugin",
+  "plugins": [
+    {
+      "name": "architect",
+      "description": "Architect skill: understands requirements and scenarios, then designs system architecture with module breakdown and diagrams",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "yaofengqiao",
+        "email": "1947846708@qq.com"
+      }
+    }
+  ]
+}

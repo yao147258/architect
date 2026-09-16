@@ -1,0 +1,25 @@
+{
+  "name": "architect",
+  "version": "1.0.0",
+  "description": "Architect skill: understands requirements and scenarios, then designs system architecture with module breakdown and diagrams",
+  "author": {
+    "name": "yaofengqiao",
+    "email": "1947846708@qq.com"
+  },
+  "homepage": "https://github.com/yao14728/architect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yao14728/architect"
+  },
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "system-design",
+    "skills",
+    "architecture-diagram",
+    "架构设计",
+    "系统架构",
+    "需求拆解"
+  ],
+  "skills": "./skills"
+}
