@@ -25,7 +25,7 @@ allowed-tools: Read, Glob, Grep, Write, Edit, Bash, WebSearch, WebFetch, AskUser
 | 从零开始的新系统/新项目 | 直接进入「五阶段流程」阶段 1 |
 | 现有代码库中新增模块/子系统 | 先用 Glob/Grep/Read 扫描代码库的分层结构、技术栈、命名与包约定、现有模块边界，再进入阶段 1；新设计必须与现状兼容 |
 | "系统很慢/很乱/改不动了"类诉求 | 先扫描代码库 + 询问痛点（哪里疼、何时疼、持续多久），跳过阶段 3 的方案选型，直接走"现状 → 问题归因 → 演进路线"，仍产出 9 章文档但第 3 章替换为问题分析 |
-| 单纯的技术选型对比（"该用 A 还是 B"） | 轻量路径：只做阶段 2（约束量化）+ 读 `references/tech-selection.md` 给对比矩阵与推荐，不生成完整 9 章文档 |
+| 单纯的技术选型对比（"该用 A 还是 B"） | 轻量路径：只做阶段 2（约束量化）+ 读 `${CLAUDE_PLUGIN_ROOT}/skills/architect/references/tech-selection.md` 给对比矩阵与推荐，不生成完整 9 章文档 |
 
 ## 五阶段流程
 
@@ -101,19 +101,19 @@ allowed-tools: Read, Glob, Grep, Write, Edit, Bash, WebSearch, WebFetch, AskUser
 这三条不因"用户很着急""需求看起来很简单"而放松。需求简单，产出的文档可以短，
 但流程不能跳步。
 
-## 模块划分速查（详见 references/module-decomposition.md）
+## 模块划分速查（详见 ${CLAUDE_PLUGIN_ROOT}/skills/architect/references/module-decomposition.md）
 
 - 划分优先级：业务能力/限界上下文 > 变化率 > 团队边界 > 技术性关注点
 - 禁止：按技术分层拆服务、按表一对一拆模块、纯 CRUD 微服务
 - 每个模块必须写满：职责（一句话）/ 对外接口 / 依赖方向 / 数据所有权
 - 自检：一句话测试、变更测试（典型需求改动应 <3 个模块）、独立测试、所有权测试
 
-## 架构图速查（详见 references/diagram-patterns.md）
+## 架构图速查（详见 ${CLAUDE_PLUGIN_ROOT}/skills/architect/references/diagram-patterns.md）
 
 必画四张：系统上下文图、容器图、模块依赖图、关键流程时序图（至少一条异常路径）。
 节点标注技术栈，边标注协议与同步/异步，单图不超过 15 节点。
 
-## 文档模板速查（详见 references/document-template.md）
+## 文档模板速查（详见 ${CLAUDE_PLUGIN_ROOT}/skills/architect/references/document-template.md）
 
 9 章：需求与场景理解 / 质量属性与约束 / 架构方案对比 / 系统模块划分 /
 架构图 / 技术选型 / 数据模型与关键流程 / 非功能设计 / 风险与演进。
