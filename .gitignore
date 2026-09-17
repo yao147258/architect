@@ -12,3 +12,5 @@ node_modules/
 # 本地临时文件
 *.tmp
 *.log
+tmp/
+permission-test.txt
